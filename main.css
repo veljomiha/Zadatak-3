@@ -27,7 +27,6 @@ body {
     display: flex;
     justify-content: flex-end;
     padding: 12vh 0;
-
 }
 
 section {
@@ -46,16 +45,12 @@ section {
     flex-direction: column;
     position: absolute;
     bottom: 0;
-    width: 700px;
-    /* height: 80%; */
+    width: 730px;
     max-width: 100%;
-    /* transform: translate(-30%, 0); */
 }
 
 .logo {
     position: absolute;
-    /* width: 135px;
-    height: 56px; */
     z-index: 1;
     left: 0;
     transform: translateY(-50%);
@@ -72,7 +67,7 @@ section {
 
 .podcast--text {
     width: 100%;
-    padding: 50px 0 15px 0;
+    padding: 80px 0 40px 0;
 }
 
 h1 {
@@ -91,7 +86,7 @@ p {
     font-size: 18px;
     line-height: 28px;
     color: var(--color6);
-    padding: 10px 130px 5px 0;
+    padding: 30px 130px 5px 0;
 }
 
 .podcast--email {
@@ -133,7 +128,8 @@ p {
     font-weight: bold;
     transition: 0.3s;
 }
-.podcast--email>input:last-child:hover{
+
+.podcast--email>input:last-child:hover {
     background-color: var(--color8);
     transition: 0.3s;
 }
@@ -144,7 +140,7 @@ p {
     align-items: center;
     width: 600px;
     max-width: 100%;
-    padding: 50px 0 5px 0;
+    padding: 40px 0 5px 0;
 }
 
 .podcast--icons-mobile {
@@ -166,9 +162,6 @@ p {
         padding: 60px 0 15px 0;
     }
 
-    p {
-        padding: 15px 130px 5px 0;
-    }
 
     .podcast--email {
         width: 700px;
@@ -193,12 +186,11 @@ p {
         width: 95vw;
         background-image: url(assets/tablet/image-host.jpg);
         background-size: 70% 99.5%;
-
     }
 
     .container {
-        height: 60%;
-        min-width: 640px;
+        /* height: 65%; */
+        width: 650px;
         max-width: 100%;
         padding-left: 20px;
     }
@@ -219,7 +211,7 @@ p {
 
     .podcast--text {
         width: 100%;
-        padding: 20px 0 20px 0;
+        padding: 80px 0 40px 0;
     }
 
     h1 {
@@ -231,7 +223,7 @@ p {
     p {
         font-size: 18px;
         line-height: 28px;
-        padding: 10px 80px 5px 0;
+        padding: 40px 80px 5px 0;
     }
 
     .podcast--email {
@@ -245,7 +237,6 @@ p {
         max-width: 100%;
         padding: 50px 0 5px 0;
     }
-
 }
 
 @media (max-width:700px),
@@ -335,7 +326,6 @@ p {
         margin: 15px 0;
     }
 
-
     .podcast--email>input:last-child {
         border-radius: 30px;
         border: none;
@@ -378,11 +368,9 @@ p {
         font-size: 12px;
         padding: 20px 0 0 0;
     }
-
 }
 
-
-@media (max-width:530px){
+@media (max-width:530px) {
     .container {
         top: 29%;
         padding: 0 20px;
