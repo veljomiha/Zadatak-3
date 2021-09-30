@@ -132,6 +132,7 @@ p {
 .podcast--email>input:last-child:hover {
     background-color: var(--color8);
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .podcast--icons {
