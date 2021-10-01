@@ -351,3 +351,11 @@ p {
         padding: 20px 0 0 0;
     }
 }
+
+@media (max-width:350px) {
+    .logo{
+        left: 50%;
+        top: 9%;
+        transform: translateX(-50%);
+    }
+}
